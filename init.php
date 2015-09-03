@@ -6,6 +6,7 @@ set_include_path(get_include_path()
     .PATH_SEPARATOR.'application/models'
     .PATH_SEPARATOR.'application/views'
     .PATH_SEPARATOR.'library'
+    .PATH_SEPARATOR.'lang'
     .PATH_SEPARATOR.'modules');
 function init($class){
     require $class.'.php';
@@ -15,10 +16,14 @@ function modules($class){
     require 'modules/'.$class.'.php';
 }
 spl_autoload_register('modules');
-function lib($class){
+function library($class){
     require 'library/'.$class.'.php';
 }
-spl_autoload_register('lib');
+spl_autoload_register('library');
+function lang($class){
+    require 'lang/'.$class.'.php';
+}
+spl_autoload_register('lang');
 class Db_ext {
     protected static $dsn = 'mysql:dbname=2z;host=localhost';
     protected static $user = 'root';
