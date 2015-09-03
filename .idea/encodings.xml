@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/.htaccess" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/application/controllers/FrontController.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/application/controllers/IController.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/template.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/index.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/init.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/js_template.js" charset="UTF-8" />
+  </component>
+</project>
