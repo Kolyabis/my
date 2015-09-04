@@ -1,12 +1,11 @@
 <?php
-class IndexModel{
+class IndexModel extends Lirary{
+
     public function views($header, $body, $footer ,$params = null){
-        $db = Db_ext::getInstance();
-        $lib = new lib();
         $menu = new mod_menu();
-        $mainMenu = $menu->get_menu($db);
+        $mainMenu = $menu->get_menu($this->db());
         $params['mainMenu'] = $mainMenu;
-        $lib->checkArray($params);
+        $this->checkArray($params);
         include(__DIR__.'/'.$header);
         include(__DIR__.'/'.$body);
         include(__DIR__.'/'.$footer);

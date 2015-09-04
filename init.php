@@ -24,7 +24,7 @@ function lang($class){
     require 'lang/'.$class.'.php';
 }
 spl_autoload_register('lang');
-class Db_ext {
+class Db {
     protected static $dsn = 'mysql:dbname=2z;host=localhost';
     protected static $user = 'root';
     protected static $password = '';
