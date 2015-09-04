@@ -1,0 +1,127 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700&subset=latin,cyrillic);
+.clear{
+    clear:both;
+}
+body {
+    margin: 0px 0 0;
+    background: #fff;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-style: normal;
+    font-size: 21px;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: 0em;
+    word-spacing: 0em;
+    line-height: 1.4;
+}
+.body{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo{
+    width: 310px;
+    height: 130px;
+    background:url(/images/logo.png) no-repeat top, left;
+    display: block;
+    margin: 20px 0px 0px 0px;
+    float: left;
+}
+#topBar{
+    height: 30px;
+    display: block;
+    margin: 0px 0px 10px 0px;
+    background-color: #9F0002;
+}
+#footer,span{
+    max-width: 1000px;
+    width: 1000px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    background-color: #3B5998;
+}
+.topModule{
+    max-width: 800px;
+    width: 800px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 4%;
+    font-size: 10px;
+}
+#topModule1{
+    background-color: #787878;
+    width: 240px;
+    height: 110px;
+    float: left;
+    margin: 5px;
+    color: #ffffff;
+    padding: 5px;
+}
+#topModule2{
+    background-color: #3B5998;
+    width: 240px;
+    height: 110px;
+    float: left;
+    margin: 5px;
+    color: #ffffff;
+    padding: 5px;
+}
+#topModule3{
+    background-color: #9F0002;
+    width: 240px;
+    height: 110px;
+    float: left;
+    margin: 5px;
+    color: #ffffff;
+    padding: 5px;
+}
+#bottonModule{
+    display: block;
+    max-width: 988px;
+    width: 100%;
+    margin-bottom: 5px;
+    font-size: 16px;
+    border: 1px solid #AAAAAB;
+    padding: 5px 10px 5px 10px;
+}
+#left{
+    float: left;
+    max-width: 17%;
+    width: 17%;
+    margin-right: 5px;
+    padding: 5px;
+    border: 1px solid #AAAAAB;
+}
+#center{
+    float: left;
+    min-width: 60%;
+    padding: 5px;
+    border: 1px solid #AAAAAB;
+    margin: 0px 5px 0px 5px;
+}
+#right{
+    float: right;
+    max-width: 17%;
+    width: 17%;
+    padding: 5px;
+    border: 1px solid #AAAAAB;
+}
+.content{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+#logoFooter{
+    width: 80px;
+    height: 40px;
+    background:url(/images/logo.png) no-repeat top, left;
+    display: block;
+    margin: 20px 0px 0px 0px;
+    float: right;
+    background-size: 80px 30px, auto;
+    position:relative; left:5px; top:90px;
+}

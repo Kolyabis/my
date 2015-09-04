@@ -1,5 +1,5 @@
 <?php
-class Lirary{
+class Library{
     /* Метод подключения БД */
     public function db(){
         $db = Db::getInstance();
