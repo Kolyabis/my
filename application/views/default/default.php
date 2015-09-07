@@ -9,5 +9,4 @@
     <div id="center">center</div>
     <div id="right">right</div>
     <div class="clear"></div>
-
 </div>
